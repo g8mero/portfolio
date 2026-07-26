@@ -11,7 +11,7 @@ export default function HeroSection() {
           <img 
             src="/polaroid.jpeg" 
             alt="Polaroid preview"
-            className="w-48 h-auto md:w-64 lg:w-80 shadow-2xl rounded-sm transform rotate-5" 
+            className="w-48 h-auto md:w-64 lg:w-80 shadow-2xl rounded-sm transform rotate-5 hover:rotate-0 hover:scale-105" 
           />
         </div>
 
@@ -42,7 +42,7 @@ export default function HeroSection() {
                 <img 
                   src="/codeButton.png" 
                   alt="code" 
-                  className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer"
+                  className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer hover:rotate-5 hover:scale-105"
                 />
               </button>
             </div>
@@ -54,7 +54,7 @@ export default function HeroSection() {
                 <img 
                   src="/communicationButton.png" 
                   alt="communication" 
-                  className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer"
+                  className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer hover:rotate-5 hover:scale-105"
                 />
               </button>
             </div>
@@ -66,7 +66,7 @@ export default function HeroSection() {
                 <img 
                   src="/conservationButton.png" 
                   alt="conservation" 
-                  className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer"
+                  className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer hover:rotate-5 hover:scale-105"
                 />
               </button>
             </div>
