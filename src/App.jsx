@@ -52,7 +52,7 @@ export default function HeroSection() {
                 className="w-30 flex justify-center md:justify-start -mt-2"
               >
                 <img 
-                  src="/communicateButton.png" 
+                  src="/communicationButton.png" 
                   alt="communication" 
                   className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer"
                 />
@@ -64,7 +64,7 @@ export default function HeroSection() {
                 className="w-30 flex justify-center md:justify-start -mt-2"
               >
                 <img 
-                  src="/conserveButton.png" 
+                  src="/conservationButton.png" 
                   alt="conservation" 
                   className="w-30 h-30 object-contain flex justify-start hover:cursor-pointer"
                 />
