@@ -4,34 +4,52 @@ import { useNavigate } from "react-router";
 export default function Code(){
     let navigate = useNavigate();
     return(
+        
         <section class = "bg-[#222026] text-white p-8">
-           
-            <div class = " mx-auto mt-6 max-w-xl min-h-screen">
+            <button 
+                onClick={() => navigate("/")}
+                class = "font-jetbrains mt-2"
                 
+                >
+                <span class="hover:cursor-pointer">~/</span>
+                <span>code</span>
+            </button>   
+            <div class = " mx-auto mt-6 max-w-xl min-h-screen">
                 <h1 class = "font-cormorant text-4xl">
-                    Coming Soon!
+                    Hackathons
                 </h1> 
-
-                <button 
-                    onClick={() => navigate("/")}
-                    class = "font-jetbrains mt-2 underline hover:cursor-pointer"
-                    
-                    >
-                    Click here to return home.
-                </button>
-                {/* 
-                <p class = "font-jetbrains mt-2">
-                    Description
-                </p>
-
-                <h1 class = "font-cormorant text-4xl">
-                    Projects
-                </h1> 
-                <p class = "font-jetbrains mt-2">
-                    
-                </p>
-                */}
-
+                <div class="mt-5 grid grid-cols-1 gap-6 md:grid-cols-2">
+                    <a class="border-surface0 bg-base hover:border-accent focus-visible:border-accent group block overflow-hidden rounded-xl border shadow-lg transition-all duration-300 hover:shadow-xl focus:outline-none">
+                        <div>
+                            <img class = "mt-17 mb-17 w-full transition-transform duration-300 group-hover:scale-105" 
+                            src = "/USAII-logo.webp"
+                            ></img>
+                        </div>
+                        <div class="space-y-3 p-5">
+                            <h3 class = "text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
+                                USAII Global Hackathon | Finalist
+                            </h3>
+                            <p class="text-subtext0 line-clamp-2 text-sm">
+                                
+                            </p>
+                        </div>
+                    </a>
+                    <a class="border-surface0 bg-base hover:border-accent focus-visible:border-accent group block overflow-hidden rounded-xl border shadow-lg transition-all duration-300 hover:shadow-xl focus:outline-none">
+                        <div>
+                            <img class = "w-full transition-transform duration-300 group-hover:scale-105" 
+                            src = "/EarthIO.jpg"
+                            ></img>
+                        </div>
+                        <div class="space-y-3 p-5">
+                            <h3 class = "text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
+                                Earth.io Hackathon | 2nd Place
+                            </h3>
+                            <p class="text-subtext0 line-clamp-2 text-sm">
+                                
+                            </p>
+                        </div>
+                    </a>
+                </div>
             </div>
         </section>
             
