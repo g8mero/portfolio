@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from "react-router";
 import { TypeAnimation } from 'react-type-animation';
 
-export default function HeroSection() {
+export default function Home() {
+  let navigate = useNavigate();
   return (
     <section className="bg-[url('/heroBg.svg')] bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center text-white p-8">
       
@@ -36,7 +38,7 @@ export default function HeroSection() {
           <div className = "flex flex-col items-center justify-center -space-y-14 md:flex-row md:items-startr md:justify-start md:space-y-0">
             <div>
               <button 
-                onClick={() => alert('Coming soon!')}
+                onClick={() => navigate("/code")}
                 className="w-30 flex justify-center md:justify-start -mt-2"
               >
                 <img 

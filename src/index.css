@@ -2,5 +2,6 @@
 @import "tailwindcss";
 
 @theme {
-  --font-cormorant: "Cormorant Garamond", serif
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-jetbrains: "JetBrains Mono", monospace;
 }
