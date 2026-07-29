@@ -16,6 +16,25 @@ export default function Code(){
             </button>   
             <div class = " mx-auto mt-6 max-w-xl min-h-screen">
                 <h1 class = "font-cormorant text-4xl">
+                    Projects
+                </h1> 
+                <div class = "mt-5 mb-5 flex flex-col md:flex-row items-center gap-2 md:gap-8">
+                    <div>
+                        <img
+                            class = "md:ml-3 md:scale-150"
+                            src = "/GreenPages.png"
+                        ></img>
+                    </div>
+                    <div>
+                        <h3 class = "text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
+                            GreenPages
+                        </h3>
+                        <p class = " font-jetbrains ">
+                            Like Grammarly, but for paper & ink. Flags wasteful print formatting in Google Docs and suggests eco-friendly fixes you accept one at a time.
+                        </p>
+                    </div>
+                </div>
+                <h1 class = "font-cormorant text-4xl">
                     Hackathons
                 </h1> 
                 <div class="mt-5 grid grid-cols-1 gap-6 md:grid-cols-2">
