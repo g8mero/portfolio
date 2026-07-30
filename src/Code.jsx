@@ -32,6 +32,7 @@ export default function Code(){
                         <p class = " font-jetbrains ">
                             Like Grammarly, but for paper & ink. Flags wasteful print formatting in Google Docs and suggests eco-friendly fixes you accept one at a time.
                         </p>
+                        
                     </div>
                 </div>
                 <h1 class = "font-cormorant text-4xl">
@@ -40,7 +41,7 @@ export default function Code(){
                 <div class="mt-5 grid grid-cols-1 gap-6 md:grid-cols-2">
                     <a class="border-surface0 bg-base hover:border-accent focus-visible:border-accent group block overflow-hidden rounded-xl border shadow-lg transition-all duration-300 hover:shadow-xl focus:outline-none">
                         <div>
-                            <img class = "mt-17 mb-17 w-full transition-transform duration-300 group-hover:scale-105" 
+                            <img class = "mt-17 mb-17 w-full transition-transform duration-300 scale-95 group-hover:scale-100" 
                             src = "/USAII-logo.webp"
                             ></img>
                         </div>
