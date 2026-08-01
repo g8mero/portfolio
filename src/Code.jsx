@@ -14,11 +14,15 @@ export default function Code(){
                 <span class="hover:cursor-pointer">~/</span>
                 <span>code</span>
             </button>   
-            <div class = " mx-auto mt-6 max-w-xl min-h-screen">
-                
-                <h1 class = "font-cormorant text-4xl">
-                    Projects -------------------------------------
-                </h1> 
+            <div class = "after:border-dashed mt-5 md:mt-20 mx-auto max-w-xl md:mb-35">
+
+                <h1 class="mt-5 font-cormorant text-4xl overflow-hidden flex w-full">
+                    <span class="pr-2 ">Projects</span>
+                    <span class="overflow-hidden">
+                        {Array.from({ length: 37 }).map((_, i) => <span key={i}>-</span>)}
+                    </span>
+                </h1>
+
                 <div class = "mt-5 mb-5 flex flex-col md:flex-row items-center gap-2 md:gap-8">
                     <div>
                         <img
@@ -35,16 +39,22 @@ export default function Code(){
                         </p>
                     </div>
                 </div>
-                <h1 class = "mt-5 font-cormorant text-4xl">
-                    Languages ----------------------------------
+                <h1 class="mt-5 font-cormorant text-4xl overflow-hidden flex w-full">
+                    <span class="pr-2">Languages</span>
+                    <span class="overflow-hidden">
+                        {Array.from({ length: 34 }).map((_, i) => <span key={i}>-</span>)}
+                    </span>
                 </h1>
                 <p class = " mt-5 font-jetbrains text-justify [text-align-last:justify]">
                     python java html javascript react tailwindcss 
                 </p>
                 
-                <h1 class = "mt-5 font-cormorant text-4xl">
-                    Awards --------------------------------------
-                </h1> 
+                <h1 class="mt-5 font-cormorant text-4xl overflow-hidden flex w-full">
+                    <span class="pr-2">Awards</span>
+                    <span class="overflow-hidden">
+                        {Array.from({ length: 38 }).map((_, i) => <span key={i}>-</span>)}
+                    </span>
+                </h1>
                 <div class="mt-5 grid grid-cols-1 gap-6 md:grid-cols-2">
                     <a class="border-surface0 bg-base hover:border-accent focus-visible:border-accent group block overflow-hidden rounded-xl border shadow-lg transition-all duration-300 hover:shadow-xl focus:outline-none">
                         <div>
@@ -53,8 +63,8 @@ export default function Code(){
                             ></img>
                         </div>
                         <div class="space-y-3 p-5">
-                            <h3 class = "flex flex-col text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
-                                <span>USAII Global Hackathon, Finalist</span>
+                            <h3 class = "text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
+                                USAII Global Hackathon, Finalist
                             </h3>
                         </div>
                     </a>
@@ -65,9 +75,8 @@ export default function Code(){
                             ></img>
                         </div>
                         <div class="space-y-3 p-5">
-                            <h3 class = "flex flex-col text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
-                                <span>Earth.io Hackathon,</span>
-                                <span>2nd Place</span>
+                            <h3 class = "text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
+                                Earth.io Hackathon, 2nd Place
                             </h3>
                         </div>
                     </a>
