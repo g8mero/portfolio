@@ -18,7 +18,7 @@ export default function Code(){
 
                 <h1 class="mt-5 font-cormorant text-4xl overflow-hidden flex w-full">
                     <span class="pr-2 ">Projects</span>
-                    <span class="overflow-hidden">
+                    <span class="overflow-hidden flex-1 min-w-0 whitespace-nowrap">
                         {Array.from({ length: 37 }).map((_, i) => <span key={i}>-</span>)}
                     </span>
                 </h1>
@@ -26,23 +26,23 @@ export default function Code(){
                 <div class = "mt-5 mb-5 flex flex-col md:flex-row items-center gap-2 md:gap-8">
                     <div>
                         <img
-                            class = "md:ml-3 md:scale-150"
+                            class = "md:ml-3 md:scale-175"
                             src = "/GreenPages.png"
                         ></img>
                     </div>
                     <div>
-                        <h3 class = "text-text group-hover:text-accent text-xl font-jetbrains transition-colors">
+                        <h3 class = "md:ml-2 text-text group-hover:text-accent text-justify text-xl font-jetbrains transition-colors">
                             GreenPages
                         </h3>
-                        <p class = " font-jetbrains ">
+                        <p class = "md:ml-2 font-jetbrains ">
                             Like Grammarly, but for clean print jobs. Flags wasteful print formatting in Google Docs and suggests eco-friendly fixes to reduce wasting pages && ink.
                         </p>
                     </div>
                 </div>
                 <h1 class="mt-5 font-cormorant text-4xl overflow-hidden flex w-full">
                     <span class="pr-2">Languages</span>
-                    <span class="overflow-hidden">
-                        {Array.from({ length: 34 }).map((_, i) => <span key={i}>-</span>)}
+                    <span class="overflow-hidden flex-1 min-w-0 whitespace-nowrap">
+                        {Array.from({ length: 37 }).map((_, i) => <span key={i}>-</span>)}
                     </span>
                 </h1>
                 <p class = " mt-5 font-jetbrains text-justify [text-align-last:justify]">
@@ -51,8 +51,8 @@ export default function Code(){
                 
                 <h1 class="mt-5 font-cormorant text-4xl overflow-hidden flex w-full">
                     <span class="pr-2">Awards</span>
-                    <span class="overflow-hidden">
-                        {Array.from({ length: 38 }).map((_, i) => <span key={i}>-</span>)}
+                    <span class="overflow-hidden flex-1 min-w-0 whitespace-nowrap">
+                        {Array.from({ length: 37 }).map((_, i) => <span key={i}>-</span>)}
                     </span>
                 </h1>
                 <div class="mt-5 grid grid-cols-1 gap-6 md:grid-cols-2">
