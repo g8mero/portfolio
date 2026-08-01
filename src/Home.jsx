@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div>
               <button 
-                onClick={() => alert('Coming soon!')}
+                onClick={() => navigate("/communication")}
                 className="w-30 flex justify-center md:justify-start -mt-2"
               >
                 <img 
