@@ -17,7 +17,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="-space-y-5 text-center md:text-left flex flex-col justify-center min-w-[280px] sm:min-w-[400px] md:min-w-[500px] md:space-y-0">
+        <div className="text-center md:text-left flex flex-col justify-center min-w-[280px] sm:min-w-[400px] md:min-w-[500px] md:space-y-0">
           <h1 className="font-cormorant text-6xl md:text-8xl tracking-tight leading-none">
             Hey! I'm a
           </h1>
@@ -35,7 +35,7 @@ export default function Home() {
             repeat={Infinity}
             className="font-cormorant text-6xl md:text-8xl italic"
           />
-          <div className = "flex flex-col items-center justify-center -space-y-14 md:flex-row md:items-startr md:justify-start md:space-y-0">
+          <div className = "-mt-4 flex flex-col items-center justify-center -space-y-14 md:flex-row md:items-startr md:justify-start md:space-y-0">
             <div>
               <button 
                 onClick={() => navigate("/code")}
