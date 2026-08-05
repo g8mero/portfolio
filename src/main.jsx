@@ -4,12 +4,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Home.jsx'
 import Code from './Code.jsx'
 import Communication from './Communication.jsx'
+import Conservation from './Conservation.jsx'
 import './index.css'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home/>,
   },
   {
     path: "/code",
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     path: "/communication",
     element: <Communication/>,
   },
+  {
+    path: "/conservation",
+    element: <Conservation/>,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router";
 
-export default function Communication(){
+export default function Conservationn(){
     let navigate = useNavigate();
     
     return(
@@ -13,7 +13,7 @@ export default function Communication(){
                 
                 >
                 <span class="hover:cursor-pointer">~/</span>
-                <span>communication</span>
+                <span>conservation</span>
             </button> 
             
             <div class = " mx-auto mt-6 max-w-xl min-h-screen">
